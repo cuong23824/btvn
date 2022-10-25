@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-	printf("1 \n");
+	printf("1. \n");
 	for (int i=0;i<3;i++){
 		for (int j=0;j<5;j++){
 			printf("*");
@@ -8,7 +8,7 @@ int main(){
 		printf("\n");
 	}
 	
-	printf("2 \n");
+	printf("2. \n");
 		for (int i=0;i<5;i++){
 		for (int j=0;j<5;j++){
 			printf("*");
@@ -19,7 +19,7 @@ int main(){
 			printf("\n");
 		}
 		
-	printf("3 \n");
+	printf("3. \n");
 			for (int i=0;i<5;i++){
 		for(int j=0;j<=i;j++){
 			printf("*");
@@ -28,7 +28,7 @@ int main(){
 	}
 	
 	
-	printf("4 \n");
+	printf("4. \n");
 	for (int i=0;i<5;i++){
 		for(int h=0;h<=i;h++){
 		for(int j=0;j<=i;j++){

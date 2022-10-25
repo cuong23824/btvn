@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-	int x=1, y=1, z, n;
+	int x=0, y=1, z=1, n;
 	scanf("%d",&n);
-	for (int i=0;i<n;i++){
+	for (int i=2;i<=n;i++){
 		z=x+y;
 		x=y;
 		y=z;
