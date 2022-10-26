@@ -3,9 +3,9 @@
 // 1. tim so dao nguoc cua 1 so nguyen
 
  int sdn(int n){
- 	y=0;
+ 	int y=0;
  	while(x!=0){
- 	x=n%10;
+ 	int x=n%10;
  	y=y*10+x
  	n=n/10;
     }
@@ -16,7 +16,7 @@
  // 2. tim so lon nhat trong 3 so nguyen
  
  int max(int a, int b, int c){
- 	max = a;
+ 	int max = a;
  	if(b>max){
  		max=b;
 	 }
@@ -30,9 +30,7 @@
  // 3. tim so thu n trong day fibonaci
  
  int stn(int n){
- 	x0=0;
-	x1=1;
-	x2=1;
+ 	int x0=0, x1=1, x2=1;
  	for(i=2;i<=n;i++){
  		x0=x1;
 		x1=x2;
@@ -44,7 +42,7 @@
  // 4. tinh tong S=1+2+3+...
  
  int tongs(int n){
- 	t=0;
+ 	int t=0;
  	for(i=1;i<=n;i++){
  		t=t+i
 	 }
@@ -55,7 +53,7 @@
  // 5. tinh tong S= 1+1/2+...+1/n
  
  int tongS(int n){
- 	t=0;
+ 	 int t=0;
  	for(i=1;i<=n;i++){
  		t=t+1/n;
 	 }
