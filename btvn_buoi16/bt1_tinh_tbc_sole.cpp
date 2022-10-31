@@ -12,6 +12,6 @@ int main(){
 			c++;
 		}
 	}
-	t=t/c;
-	printf("tbc so le la %d",t);
+	float tbc= (float)t/c;
+	printf("tbc so le la %f",tbc);
 }

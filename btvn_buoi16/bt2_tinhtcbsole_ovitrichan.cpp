@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main(){
-	int n, c=0;
-	float t=0;
+	int n, c=0, t=0;
 	scanf("%d",&n);
 	int ary[n];
 	for (int i=0;i<n;i++){
@@ -13,6 +12,6 @@ int main(){
 			c++;
 		}
 	}
-	t=t/c;
-	printf("%f",t);
+	float tbc= (float)t/c;
+	printf("%f",tbc);
 }
