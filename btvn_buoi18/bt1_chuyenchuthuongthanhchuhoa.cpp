@@ -10,7 +10,7 @@
 int main(){
 	char m[50];
 	scanf("%s",m);
-	for (int i=0;i<strlen(s);i++){
+	for (int i=0;i<strlen(m);i++){
 		if(m[i]>96 && m[i]<123){
 			m[i]=m[i]-32;
 		}
